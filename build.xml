@@ -20,13 +20,15 @@
 
 <project name="hcatalog" default="jar" xmlns:ivy="antlib:org.apache.ivy.ant" >
   <property name="hcatalog.home" value="${basedir}" />
+  <property name="path.to.basedir" location="${basedir}"/>
   <property file="${hcatalog.home}/build.properties" />
-
+  <property environment="env"/>
   <!--  
   ================================================================================
   Imports
   ================================================================================ -->
   <import file="build-common.xml"/>
+  <import file="deploy.xml"/>
 
   <!--
   ================================================================================
