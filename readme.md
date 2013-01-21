@@ -53,6 +53,11 @@ To build and deploy HCatalog artifacts in a remote SNAPSHOT repository:
 $ export MAPR_SNAPSHOTS_REPO=<URL:/path/to/snapshots/>
 $ ant mvn-deploy
 
+To generate tarball:
+
+ant tar
+
+The tarball is located in the build/ directory as hcatalog-0.4.1-dev.tar.gz
 
 Using HCatalog artifacts with MapR patches in your Maven Project
 ================================================================
