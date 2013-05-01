@@ -15,7 +15,7 @@
   limitations under the License. -->
 
 <ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
-    <info organisation="com.mapr.hcatalog" module="${ant.project.name}"
+    <info organisation="org.apache.hcatalog" module="${ant.project.name}"
             revision="${hcatalog.version}">
         <license name="Apache 2.0"/>
         <ivyauthor name="Apache HCatalog Team" url="http://incubator.apache.org/hcatalog"/>
